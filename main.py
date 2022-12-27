@@ -23,13 +23,12 @@ class Stand:    #класс для вывода картинки и персон
         if nums == "small":
             self.nums = str(random.randint(0, 2))
         elif nums == 'big':
-            self.nums = str(random.randint(0, 2))
+            self.nums = str(random.randint(0, 7))
         self.name = name[self.nums]
         self.face = face[self.nums]
         self.id = id
-
-    def send(self):
-        await dp.bot.send_photo(chat_id=self.id, photo=self.face, caption=f"Твой стенд это {self.name}")
+    # def send(self):                                                                                       функция не работает :( пришлось прописывать в каждом сезоне отдельно
+    #     await bot.send_photo(chat_id=self.id, photo=self.face, caption=f"Твой стенд это {self.name}")
 @dp.message_handler(commands=["start"])
 async def photo(message: Message):  #начальная кнопка
     reply_markup = InlineKeyboardMarkup().add(
@@ -70,43 +69,43 @@ async def season1_command(message: types.Message):
 @dp.callback_query_handler(text=['season2'])
 async def season2_command(message: types.Message):
     chat_id = message.from_user.id
-    seas2 = Stand(two_l, two,chat_id,'small')
-    seas2.send()
+    seas2 = Stand(two, two_l,chat_id,'small')
+    await bot.send_photo(chat_id=seas2.id, photo=seas2.face, caption=f"Твой стенд это {seas2.name}")
 @dp.callback_query_handler(text=['season3'])
 async def season3_command(message: types.Message):
     chat_id = message.from_user.id
-    seas3 = Stand(three_l, three, chat_id,'small')
-    seas3.send()
+    seas3 = Stand(three, three_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas3.id, photo=seas3.face, caption=f"Твой стенд это {seas3.name}")
 @dp.callback_query_handler(text=['season4'])
 async def season4_command(message: types.Message):
     chat_id = message.from_user.id
-    seas4 = Stand(four_l, four, chat_id,'small')
-    seas4.send()
+    seas4 = Stand(four, four_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas4.id, photo=seas4.face, caption=f"Твой стенд это {seas4.name}")
 @dp.callback_query_handler(text=['season5'])
 async def season5_command(message: types.Message):
     chat_id = message.from_user.id
-    seas5 = Stand(five_l, five, chat_id,'small')
-    seas5.send()
+    seas5 = Stand(five, five_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas5.id, photo=seas5.face, caption=f"Твой стенд это {seas5.name}")
 @dp.callback_query_handler(text=['season6'])
 async def season6_command(message: types.Message):
     chat_id = message.from_user.id
-    seas6 = Stand(six_l, six, chat_id,'small')
-    seas6.send()
+    seas6 = Stand(six, six_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas6.id, photo=seas6.face, caption=f"Твой стенд это {seas6.name}")
 @dp.callback_query_handler(text=['season7'])
 async def season7_command(message: types.Message):
     chat_id = message.from_user.id
-    seas7 = Stand(seven_l, seven, chat_id,'small')
-    seas7.send()
+    seas7 = Stand(seven, seven_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas7.id, photo=seas7.face, caption=f"Твой стенд это {seas7.name}")
 @dp.callback_query_handler(text=['season8'])
 async def season8_command(message: types.Message):
     chat_id = message.from_user.id
-    seas8 = Stand(eight_l, eight, chat_id,'small')
-    seas8.send()
+    seas8 = Stand(eight, eight_l, chat_id,'small')
+    await bot.send_photo(chat_id=seas8.id, photo=seas8.face, caption=f"Твой стенд это {seas8.name}")
 @dp.callback_query_handler(text='Mystery_arr')  #функция для вывода любого персонажа из любого сезона
 async def send_photo(message: Message):
     chat_id = message.from_user.id
     myst = Stand(stands,link,chat_id,'big')
-    myst.send()
+    await bot.send_photo(chat_id=myst.id, photo=myst.face, caption=f"Твой стенд это {myst.name}")
 @dp.callback_query_handler(text=['info'])
 async def season1_command(message: types.Message):
     await bot.send_message(message.from_user.id,
