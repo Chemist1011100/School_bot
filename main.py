@@ -15,7 +15,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 print("Запуск успешен")  # Проверка
 
-TOKEN = ('5399899287:AAE-apYTLr9JooW23NdAgdqV1NA-zBvCo4c')
+TOKEN = ('6203052614:AAEA6NAdQJ8jaeT5c7sqfGhGwWt8asi4Ntk')
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 inkb = InlineKeyboardMarkup(row_width=1).add(InlineKeyboardButton(text='Нажми на меня', callback_data='www'))
