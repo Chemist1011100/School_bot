@@ -1,81 +1,91 @@
-stands = {
-    '0' : 'Star Platinum',
-    '1' : 'The World',
-    '2' : 'King Crimson'
-}
-link = {
-    '0' : 'https://pm1.narvii.com/7960/9535942c5abf234da981f906681ffe1dee037133r1-735-727v2_hq.jpg',
-    '1' : 'https://3.bp.blogspot.com/-0e8TaVYt8Qs/VZ6Q0vI1VAI/AAAAAAAAKWU/dpWG1YBnvfI/s1600/Screenshot%2B%25281003%2529.png',
-    '2' : 'https://i.pinimg.com/originals/15/f9/3b/15f93b54e03dffb396cb728fb31e8625.jpg'
-}
-two_l = {
-    '0' : 'https://pm1.narvii.com/7960/9535942c5abf234da981f906681ffe1dee037133r1-735-727v2_hq.jpg',
-    '1' : 'https://pm1.narvii.com/7960/9535942c5abf234da981f906681ffe1dee037133r1-735-727v2_hq.jpg',
-    '2' : 'https://pm1.narvii.com/7960/9535942c5abf234da981f906681ffe1dee037133r1-735-727v2_hq.jpg'
-}
-three_l = {
-    '0' : 'https://3.bp.blogspot.com/-0e8TaVYt8Qs/VZ6Q0vI1VAI/AAAAAAAAKWU/dpWG1YBnvfI/s1600/Screenshot%2B%25281003%2529.png',
-    '1' : 'https://3.bp.blogspot.com/-0e8TaVYt8Qs/VZ6Q0vI1VAI/AAAAAAAAKWU/dpWG1YBnvfI/s1600/Screenshot%2B%25281003%2529.png',
-    '2' : 'https://3.bp.blogspot.com/-0e8TaVYt8Qs/VZ6Q0vI1VAI/AAAAAAAAKWU/dpWG1YBnvfI/s1600/Screenshot%2B%25281003%2529.png'
-}
-four_l = {
-    '0': 'https://i.imgur.com/6mCurJy.jpg',
-    '1': 'https://i.imgur.com/6mCurJy.jpg',
-    '2': 'https://i.imgur.com/6mCurJy.jpg'
-}
-five_l = {
-    '0': 'https://i.pinimg.com/originals/e8/c4/88/e8c488b26106373c5e53ba18c455b00e.png',
-    '1': 'https://i.pinimg.com/originals/e8/c4/88/e8c488b26106373c5e53ba18c455b00e.png',
-    '2': 'https://i.pinimg.com/originals/e8/c4/88/e8c488b26106373c5e53ba18c455b00e.png'
-}
-six_l = {
-    '0': 'https://i1.manhuadb.com/ccbaike/1328/13254/060_pecyudql.jpg',
-    '1': 'https://i1.manhuadb.com/ccbaike/1328/13254/060_pecyudql.jpg',
-    '2': 'https://i1.manhuadb.com/ccbaike/1328/13254/060_pecyudql.jpg'
-}
-seven_l = {
-    '0': 'https://pm1.narvii.com/7889/097b72eab9c1843c5a3601c73d943d832f3c0f4cr1-785-998v2_hq.jpg',
-    '1': 'https://pm1.narvii.com/7889/097b72eab9c1843c5a3601c73d943d832f3c0f4cr1-785-998v2_hq.jpg',
-    '2': 'https://pm1.narvii.com/7889/097b72eab9c1843c5a3601c73d943d832f3c0f4cr1-785-998v2_hq.jpg'
-}
-eight_l = {
-    '0': 'http://pm1.narvii.com/7764/e7d2d55abb5eddb9958e592e8e0f187b696b27f5r1-648-1302v2_uhq.jpg',
-    '1': 'http://pm1.narvii.com/7764/e7d2d55abb5eddb9958e592e8e0f187b696b27f5r1-648-1302v2_uhq.jpg',
-    '2': 'http://pm1.narvii.com/7764/e7d2d55abb5eddb9958e592e8e0f187b696b27f5r1-648-1302v2_uhq.jpg'
-}
+stands = (
+    'Star Platinum',
+    'Magician Red',
+    'Hermit Perple',
+    'Heirophant Green',
+    'Silver Chariot',
+    'The World',
+    'The Fool',
+    'Yellow Temperance',
+    'Emperor',
+    'Cream',
+    'Crazy Diamond',
+    "Heaven's Door",
+    'The Hand',
+    'Echoes',
+    'Killer Queen',
+    'Golden Experience',
+    'Sticky Fingers',
+    'King Crimson',
+    'Golden Experience Requiem',
+    'Silver Chariot Requiem',
+    'Made In Heaven',
+    'Stone Free',
+    'White snake',
+    'C-moon',
+    'Diver Down'
+          )
 
-two = {
-    '0': 'Star Platinum',
-    '1': 'Star Platinum',
-    '2': 'Star Platinum'
-}
-three = {
-    '0': 'The World',
-    '1': 'The World',
-    '2': 'The World'
-}
-four = {
-    '0': 'Crazy Diamond',
-    '1': 'Crazy Diamond',
-    '2': 'Crazy Diamond'
-}
-five = {
-    '0': 'Golden Experiance',
-    '1': 'Golden Experiance',
-    '2': 'Golden Experiance'
-}
-six = {
-    '0': 'Made In Heaven',
-    '1': 'Made In Heaven',
-    '2': 'Made In Heaven'
-}
-seven = {
-    '0': 'D4C',
-    '1': 'D4C',
-    '2': 'D4C'
-}
-eight = {
-    '0': 'Wonder of U',
-    '1': 'Wonder of U',
-    '2': 'Wonder of U'
+two = (
+    'Star Platinum',
+    'Magician Red',
+    'Hermit Perple',
+    'Heirophant Green',
+    'Silver Chariot'
+)
+three = (
+    'The World',
+    'The Fool',
+    'Yellow Temperance',
+    'Emperor',
+    'Cream'
+)
+four = (
+  'Crazy Diamond',
+  "Heaven's Door",
+  'The Hand',
+  'Echoes',
+  'Killer Queen'
+)
+five = (
+  'Golden Experience',
+  'Sticky Fingers',
+  'King Crimson',
+  'Golden Experience Requiem',
+  'Silver Chariot Requiem'
+)
+six = (
+  'Made In Heaven',
+  'Stone Free',
+  'White snake',
+  'C-moon',
+    'Diver Down'
+)
+
+links = {
+   'Star Platinum' : 'https://pm1.narvii.com/7960/9535942c5abf234da981f906681ffe1dee037133r1-735-727v2_hq.jpg', #SP
+   'Magician Red' : 'https://yt3.ggpht.com/a/AGF-l78QK3GP0THsd3iU_TYo0EfMecG3bkcD7s2pXg=s900-c-k-c0xffffffff-no-rj-mo', #MR
+   'Hermit Perple' : 'http://pm1.narvii.com/7441/2622e5e930bdacd26e9468e6087477ebe0625745r1-1920-1080v2_uhq.jpg', #HP
+   'Heirophant Green' : 'https://i.ytimg.com/vi/6Su9Q7byATw/maxresdefault.jpg', #HG
+   'Silver Chariot' : 'https://img1.ak.crunchyroll.com/i/spire4-tmb/df3e396f1d84a92f34d857bdbf94741a1398795781_main.jpg', #SC
+   'The World' : 'https://3.bp.blogspot.com/-0e8TaVYt8Qs/VZ6Q0vI1VAI/AAAAAAAAKWU/dpWG1YBnvfI/s1600/Screenshot%2B%25281003%2529.png', #The World
+   'The Fool' : 'https://static2.cbrimages.com/wordpress/wp-content/uploads/2019/07/The-Fool.jpg', #The Fool
+   'Yellow Temperance' : 'http://pm1.narvii.com/7886/e4fd6340ac996fa745c2c5c4823298c89fe7a388r1-788-1080v2_uhq.jpg', #YT
+   'Emperor' : 'https://i.ytimg.com/vi/32op4hqeVMo/maxresdefault.jpg',  # Emperor
+   'Cream' : 'https://i.ytimg.com/vi/ZyrtnKQnszM/maxresdefault.jpg',  # Cream
+   'Crazy Diamond' : 'https://i.imgur.com/6mCurJy.jpg', #CD
+   "Heaven's Door" : "https://i.ytimg.com/vi/bthwUHJ2qJQ/maxresdefault.jpg", #HD
+   'The Hand' : 'https://static.jojowiki.com/images/8/8e/latest/20210422175130/Echoes_ACT3_DU_Infobox_Anime.png', #The Hand
+   'Echoes' : 'https://i.ytimg.com/vi/2FzTWg4ZtYU/maxresdefault.jpg', #Echoes
+   'Killer Queen' : 'https://animeshka.org/uploads/posts/2023-01/1674271446_animeshka-org-p-killer-queen-wallpaper-pinterest-26.jpg', #KQ
+   'Golden Experience' : 'https://i.pinimg.com/originals/e8/c4/88/e8c488b26106373c5e53ba18c455b00e.png', #GE
+   'Sticky Fingers' : 'https://wallpapercave.com/wp/wp8937598.jpg', #SF
+   'King Crimson' : 'https://wallpapercave.com/wp/wp5216678.jpg', #KC
+   'Golden Experience Requiem' : 'https://steamuserimages-a.akamaihd.net/ugc/1868426476567309241/CC74A4FA08B300EBB31C0841E82C576671BA3803/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true', #GER
+   'Silver Chariot Requiem' : 'https://i.ytimg.com/vi/FkFwRoRVNgs/maxresdefault.jpg', #SCR
+   'Made In Heaven' : 'https://playerok.fra1.digitaloceanspaces.com/images/1ed99576-99a7-6c90-60b5-261efee436ab.jpg', #MIH
+   'Stone Free' : 'https://pbs.twimg.com/media/FDuDK-6XsAo3ov3.jpg',
+   'White snake' : 'https://images.kinorium.com/movie/shot/657330/w1500_50292467.jpg',
+   'C-moon' : 'https://wallpapercave.com/wp/wp11464603.jpg',
+   'Diver Down' : 'https://i.ytimg.com/vi/C0SVWevzd4A/maxresdefault.jpg?7857057827'
 }
